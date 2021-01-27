@@ -2,18 +2,15 @@
 _in progress_
 
 ## Objective
-This project is intended to create a webpage meant to show a true passion for Mars. The webpage itself scrape images
+This project intended to create a webpage meant to show a true passion for Mars. Herein, I used a html-python import to open a local browser, naviate to and around a webpage, and store the links and images to a database from python. 
 
 ## Translating Objective into Deliverables
-Deliverable 1: Scrape Full-Resolution Mars Hemisphere Images and Titles
-Deliverable 2: Update the Web App with Mars Hemisphere Images and Titles
-Deliverable 3: Add Bootstrap 3 Components
+Deliverable: Scrape Full-Resolution Mars Hemisphere Images and Titles
 
 ## Complications and Workarounds 
-
+While navigating the webpage from python, I found that explicit variables (variables defined within the very cell) worked best. Without this factor the code completed here would be unable to run.
 
 ## Tools Used
 - BeautifulSoup
 - Splinter
-- Mongodb
 - Pandas
